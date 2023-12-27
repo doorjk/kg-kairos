@@ -29,7 +29,7 @@ void loop() {
     state = 1;
     Serial.println("Button 1 Pressed");
   }
-  else if (button1.rose()){
+  if (button1.rose()){
     Serial.println("Button 1 Realeased");
     }
 
@@ -40,7 +40,7 @@ void loop() {
     state = 0;
     Serial.println("Button 2 Pressed");
   }
-  else if (button2.rose()){
+  if (button2.rose()){
     Serial.println("Button 2 Realeased");
   }
   
